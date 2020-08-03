@@ -43,6 +43,14 @@ int main()
 	ds = sqrt(dy^2 + dx^2); */
 	ds = pow((pow(dy, 2) + pow(dx, 2)), 0.5);
 	printf("İzdüşüm koordinat farklarının kontrol değeri: %f\n", ds);
+	if (ds < 7)
+	{
+		printf("Kontrol doğru bir şekilde sağlanmıştır. \n");
+	}
+	else
+	{
+		printf("Lütfen değerlerinizi kontrol ediniz! \n");
+	}
 
 	return 0;
 }
